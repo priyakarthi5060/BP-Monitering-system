@@ -237,9 +237,9 @@ Contributions are always welcome!
 
 <div align="center">
 
-## ❤️ Developed by
 
-# **Priyadharshini K**
+
+
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&pause=1200&color=00B4D8&center=true&width=700&lines=AI+for+Healthcare;Machine+Learning+%7C+Embedded+Systems;Building+Smarter+Medical+Solutions;Thanks+for+Visiting!" />
 
