@@ -16,7 +16,7 @@
 
 ![Healthcare](https://img.shields.io/badge/Healthcare-AI-red?style=for-the-badge)
 
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Neocare-green?style=for-the-badge)
 
 </p>
 
