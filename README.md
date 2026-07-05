@@ -1,58 +1,62 @@
 <div align="center">
 
-# ❤️ AI-Based Cuffless Blood Pressure Monitoring System
+# ❤️ AI-Based Cuffless Blood Pressure Monitoring Software
 
-### 📊 PPG Signal Processing | Machine Learning | ESP32 | Wearable Healthcare
+### 🩺 Intelligent Blood Pressure Estimation Using PPG Signals & Machine Learning
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&pause=1000&color=FF4B4B&center=true&vCenter=true&width=850&lines=Non-Invasive+Blood+Pressure+Monitoring;Machine+Learning+Based+Prediction;PPG+Signal+Analysis;Real-Time+Health+Monitoring;Wearable+Healthcare+Technology" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=28&pause=1000&color=E63946&center=true&vCenter=true&width=900&lines=AI-Powered+Healthcare+Solution;Cuffless+Blood+Pressure+Monitoring;Real-Time+PPG+Signal+Analysis;Machine+Learning+Based+BP+Prediction;Welcome+to+Our+Project!" />
 
-![GitHub Repo stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPOSITORY?style=social)
-![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPOSITORY?style=social)
-![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPOSITORY)
-![License](https://img.shields.io/badge/License-MIT-blue)
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
+
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-success?style=for-the-badge)
+
+![nRF52840](https://img.shields.io/badge/nRF52840-Low%20Power-blueviolet?style=for-the-badge)
+
+![Healthcare](https://img.shields.io/badge/Healthcare-AI-red?style=for-the-badge)
+
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+</p>
 
 </div>
 
 ---
 
-# 🩺 Project Overview
+# 📖 About the Project
 
-Traditional blood pressure measurement relies on inflatable cuffs, which can be uncomfortable and unsuitable for continuous monitoring.
+Blood pressure is one of the most important physiological indicators used to assess cardiovascular health. Traditional cuff-based blood pressure monitors are not suitable for continuous monitoring because they are bulky, uncomfortable, and require manual operation.
 
-This project introduces an **AI-powered Cuffless Blood Pressure Monitoring System** that estimates **Systolic Blood Pressure (SBP)** and **Diastolic Blood Pressure (DBP)** using **Photoplethysmography (PPG)** signals combined with **Machine Learning algorithms**.
+This project presents an **AI-Based Cuffless Blood Pressure Monitoring Software** that estimates **Systolic Blood Pressure (SBP)** and **Diastolic Blood Pressure (DBP)** using **Photoplethysmography (PPG)** signals and Machine Learning algorithms.
 
-The system provides **real-time, non-invasive, and continuous blood pressure estimation**, making it ideal for wearable healthcare applications.
+The system collects PPG signals using a sensor connected to the **nRF52840** microcontroller. The acquired signals are preprocessed, analyzed, and processed through a trained Machine Learning model to estimate blood pressure values. The predicted results are displayed through a software interface, enabling non-invasive, continuous, and convenient blood pressure monitoring.
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
-🩸 Cuffless Blood Pressure Estimation
-
-📈 Real-Time PPG Signal Analysis
-
-🤖 Machine Learning Prediction
-
-⚡ ESP32-Based Data Acquisition
-
-📊 Continuous Health Monitoring
-
-💻 Cloud-Ready Architecture
-
-🔋 Low Power Consumption
-
-📱 Wearable Device Integration
+- 🩺 Non-Invasive Blood Pressure Estimation
+- ❤️ Real-Time PPG Signal Processing
+- 🤖 AI & Machine Learning Based Prediction
+- 📊 Automatic SBP & DBP Estimation
+- ⚡ Fast Signal Analysis
+- 📈 Interactive Software Dashboard
+- 🔋 Low-Power Data Acquisition using nRF52840
+- ☁ Future Cloud Integration
+- 📱 Scalable for Remote Healthcare
 
 ---
 
 # 🎯 Objectives
 
-- Develop a non-invasive BP monitoring system.
-- Acquire high-quality PPG signals.
-- Extract meaningful physiological features.
-- Train Machine Learning models.
-- Predict SBP and DBP accurately.
-- Enable continuous cardiovascular monitoring.
+- Develop a cuffless blood pressure monitoring system.
+- Acquire PPG signals using optical sensing technology.
+- Remove noise and improve signal quality.
+- Extract significant physiological features.
+- Train Machine Learning models for BP estimation.
+- Predict systolic and diastolic blood pressure accurately.
+- Provide continuous and user-friendly health monitoring.
 
 ---
 
@@ -62,10 +66,13 @@ The system provides **real-time, non-invasive, and continuous blood pressure est
 PPG Sensor
       │
       ▼
+nRF52840
+      │
+      ▼
 Signal Acquisition
       │
       ▼
-Noise Filtering
+Signal Preprocessing
       │
       ▼
 Feature Extraction
@@ -74,59 +81,69 @@ Feature Extraction
 Machine Learning Model
       │
       ▼
-SBP & DBP Prediction
+Blood Pressure Prediction
       │
       ▼
-Display / Cloud Storage
+Software Dashboard
 ```
+
+---
+
+# ⚙ Working Principle
+
+1. The PPG sensor captures blood volume variations from the user's fingertip.
+2. The nRF52840 collects and transmits the PPG signal.
+3. The acquired signal undergoes preprocessing to remove noise and motion artifacts.
+4. Important physiological features are extracted from the processed signal.
+5. The trained Machine Learning model predicts:
+   - Systolic Blood Pressure (SBP)
+   - Diastolic Blood Pressure (DBP)
+6. The estimated blood pressure values are displayed through the software dashboard.
 
 ---
 
 # 🛠 Hardware Components
 
-| Component | Description |
-|------------|-------------|
-| ESP32 | Main Microcontroller |
-| PPG Sensor | Pulse Signal Acquisition |
-| OLED Display | BP Display |
-| Battery | Portable Power Supply |
-| Charging Module | Battery Charging |
-| PCB | Circuit Integration |
+| Component | Purpose |
+|------------|----------|
+| nRF52840 | Data Acquisition & Processing |
+| MAX30102 PPG Sensor | PPG Signal Collection |
+| Li-ion Battery | Power Supply |
+| Charging Module | Battery Management |
+| PCB | Hardware Integration |
 
 ---
 
-# 💻 Software Stack
+# 💻 Software & Technologies
 
-- Arduino IDE
-- Google Colab
 - Python
-- TensorFlow
+- Google Colab
+- Arduino IDE
 - Scikit-Learn
+- TensorFlow
 - NumPy
 - Pandas
 - Matplotlib
+- GitHub
 
 ---
 
-# 📊 Machine Learning Pipeline
+# 🤖 Machine Learning Pipeline
 
 ```text
-Raw PPG Signals
+Raw PPG Signal
         │
         ▼
-Preprocessing
+Signal Cleaning
         │
         ▼
-Peak Detection
+Feature Extraction
         │
         ▼
-Feature Engineering
+Dataset Preparation
         │
         ▼
-Training Dataset
-        │
-        ▼
-Machine Learning Model
+Model Training
         │
         ▼
 Blood Pressure Prediction
@@ -134,124 +151,102 @@ Blood Pressure Prediction
 
 ---
 
-# 📁 Project Structure
+# 📂 Project Structure
 
 ```text
-📦 Cuffless-BP-Monitoring
-│
-├── Arduino_Code/
-├── ML_Model/
-├── Dataset/
-├── Images/
+📦 AI-Cuffless-BP-Monitoring
+
+├── Data/
+├── Machine_Learning/
+├── Firmware/
 ├── Documentation/
+├── Images/
+├── Software/
 ├── README.md
 └── LICENSE
 ```
 
 ---
 
-# 📂 Dataset
+# 📊 Expected Output
 
-The project uses synchronized **PPG signals** with corresponding blood pressure values for training and testing Machine Learning models.
-
-Example Files:
-
-```
-s1.pkl
-s2.pkl
-s3.pkl
-...
-```
+- 📈 Estimated Systolic Blood Pressure (SBP)
+- 📉 Estimated Diastolic Blood Pressure (DBP)
+- 📊 Processed PPG Signal Visualization
+- 📋 Blood Pressure Analysis Report
+- 💻 Interactive Software Dashboard
+- 🩺 Continuous Health Monitoring
 
 ---
 
-# 📈 Applications
+# 🌍 Applications
 
-🏥 Smart Healthcare
-
-⌚ Wearable Devices
-
-👴 Elderly Patient Monitoring
-
-🏠 Home Healthcare
-
-🚑 Remote Patient Monitoring
-
-📡 Telemedicine
-
-💓 Cardiovascular Disease Screening
+- 🏥 Hospitals
+- 🏠 Home Healthcare
+- 📡 Remote Patient Monitoring
+- 👨‍⚕ Clinical Decision Support
+- ❤️ Cardiovascular Health Monitoring
+- 📱 Digital Healthcare Platforms
+- ⌚ Future Wearable Health Systems
 
 ---
 
-# 🚀 Future Enhancements
+# 🚀 Future Scope
 
 - Deep Learning Models (CNN & LSTM)
 - Mobile Application
-- Bluetooth Connectivity
-- IoT Dashboard
-- Cloud Database Integration
-- AI Health Analytics
-- ECG + PPG Sensor Fusion
-- Edge AI Deployment
+- Cloud-Based Health Monitoring
+- Personalized AI Models
+- Bluetooth Low Energy (BLE)
+- Remote Doctor Dashboard
+- Multi-Parameter Health Monitoring
+- IoT-Based Healthcare Platform
 
 ---
 
-# 📸 Project Gallery
+# 📸 Screenshots
 
-```
-Images/
-│
-├── Prototype.jpg
-├── Circuit.png
+```text
+📁 Images
+
+├── Dashboard.png
+├── Workflow.png
+├── Architecture.png
 ├── PPG_Signal.png
-├── OLED_Output.jpg
-└── Flowchart.png
+└── Prediction_Result.png
 ```
 
 ---
 
-# 📊 Expected Output
+# 📜 License
 
-✔ Accurate SBP Prediction
-
-✔ Accurate DBP Prediction
-
-✔ Continuous Monitoring
-
-✔ Portable Device
-
-✔ User-Friendly Interface
+This project is licensed under the MIT License.
 
 ---
 
 # 🤝 Contributing
 
-Contributions, improvements, and suggestions are always welcome.
+Contributions are always welcome!
 
-Fork this repository and submit a Pull Request.
-
----
-
-# ⭐ Support
-
-If you found this project helpful,
-
-⭐ Star this Repository
-
-🍴 Fork the Repository
-
-📢 Share with others
+- ⭐ Star this repository
+- 🍴 Fork this repository
+- 🛠 Submit Pull Requests
+- 🐞 Report Issues
 
 ---
 
 <div align="center">
 
-## ❤️ Developed by Priyadharshini
+## ❤️ Developed by
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&pause=1000&color=FF4B4B&center=true&vCenter=true&width=700&lines=AI+for+Healthcare;Cuffless+Blood+Pressure+Monitoring;Machine+Learning+%2B+Embedded+Systems;Thanks+for+Visiting!" />
+# **Priyadharshini K**
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&pause=1200&color=00B4D8&center=true&width=700&lines=AI+for+Healthcare;Machine+Learning+%7C+Embedded+Systems;Building+Smarter+Medical+Solutions;Thanks+for+Visiting!" />
 
 </div>
 
+---
+
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF416C,100:FF4B2B&height=180&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00B4D8,100:90E0EF&height=180&section=footer"/>
 </p>
